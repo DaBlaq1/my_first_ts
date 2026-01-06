@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Milestone Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <p>🚀 TS Academy</p>
+    </header>
+
+    <hr>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Learn Web Development the Right Way</h1>
+
+            <p>
+                We help beginners build a strong foundation in web development using
+                simple, practical, and real-world examples that make learning fun.
+            </p>
+
+            <p>
+                <a href="#">Call us</a> |
+                <a href="#contact">Contact us</a>
+            </p>
+        </section>
+
+        <hr>
+
+   <!-- VIDEO SECTION -->
+<section class="video-section">
+    <h2>Why Choose TS Academy?</h2>
+
+    <br>
+
+    <p>
+        This video explains what to expect when learning frontend development
+        at TS Academy and how students are guided step-by-step.
+    </p>
+
+    <br>
+
+    <iframe
+        src="https://fast.wistia.net/embed/iframe/zbb8yatmhx?autoplay=1&muted=1&loop=1"
+        title="Learning at TS Academy – What to Expect"
+        width="100%"
+        height="225"
+        allow="autoplay; fullscreen"
+        allowfullscreen>
+    </iframe>
+
+    <br><br>
+
+    <p>
+        <a href="https://app.tsacademyonline.com/courses/take/Frontend%20Development/lessons/69779266-learning-at-ts-academy-what-to-expect?wvideo=zbb8yatmhx">
+            Watch in full screen
+        </a>
+    </p>
+</section>
+
+
+        <!-- IMAGE SECTION -->
+<section class="image-section">
+    <h2>Learning Through Practice</h2>
+
+    <br>
+
+    <p>
+        At TS Academy, students learn by building real projects and applying
+        concepts immediately, reinforcing understanding through practice.
+    </p>
+
+    <br>
+
+    <figure>
+        <img
+            src="https://import.cdn.thinkific.com/1036744/EaIQNygmSiS4IcccTmwK_2150061972.jpg"
+            alt="Students learning frontend development at TS Academy"
+            width="100%"
+        >
+
+        <br>
+
+        <figcaption>
+            A TS Academy student  learning frontend development together.
+        </figcaption>
+    </figure>
+</section>
+
+        <!-- TABLE SECTION -->
+      <p> Students wil learn various things in thier time with us, like making tables or forms, like the ones below:</p>
+        <section class="table-section">
+    <h2>
+        Data about the planets of our solar system
+        (Planetary facts taken from NASA)
+    </h2>
+
+    <br>
+
+    <table border="1">
+        <caption>
+            Planetary characteristics of major celestial bodies
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Planet Group</th>
+                <th scope="col">Sub Group</th>
+                <th scope="col">Name</th>
+                <th scope="col">Mass (10²⁴kg)</th>
+                <th scope="col">Diameter (km)</th>
+                <th scope="col">Density (kg/m³)</th>
+                <th scope="col">Gravity (m/s²)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- TERRESTRIAL PLANETS -->
+            <tr>
+                <th scope="rowgroup" rowspan="4">Terrestrial Planets</th>
+                <td rowspan="4"></td>
+                <th scope="row">Mercury</th>
+                <td>0.330</td>
+                <td>4879</td>
+                <td>5427</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <th scope="row">Venus</th>
+                <td>4.87</td>
+                <td>12104</td>
+                <td>5243</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <th scope="row">Earth</th>
+                <td>5.97</td>
+                <td>12756</td>
+                <td>5514</td>
+                <td>9.8</td>
+            </tr>
+            <tr>
+                <th scope="row">Mars</th>
+                <td>0.642</td>
+                <td>6792</td>
+                <td>3933</td>
+                <td>3.7</td>
+            </tr>
+
+            <!-- JOVIAN PLANETS : GAS GIANTS -->
+            <tr>
+                <th scope="rowgroup" rowspan="4">Jovian Planets</th>
+                <th scope="rowgroup" rowspan="2">Gas Giants</th>
+                <th scope="row">Jupiter</th>
+                <td>1898</td>
+                <td>142984</td>
+                <td>1326</td>
+                <td>23.1</td>
+            </tr>
+            <tr>
+                <th scope="row">Saturn</th>
+                <td>568</td>
+                <td>120536</td>
+                <td>687</td>
+                <td>9.0</td>
+            </tr>
+
+            <!-- JOVIAN PLANETS : ICE GIANTS -->
+            <tr>
+                <th scope="rowgroup" rowspan="2">Ice Giants</th>
+                <th scope="row">Uranus</th>
+                <td>86.8</td>
+                <td>51118</td>
+                <td>1271</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <th scope="row">Neptune</th>
+                <td>102</td>
+                <td>49528</td>
+                <td>1638</td>
+                <td>11.0</td>
+            </tr>
+
+            <!-- DWARF PLANET -->
+            <tr>
+                <th scope="rowgroup">Dwarf Planet</th>
+                <td></td>
+                <th scope="row">Pluto</th>
+                <td>0.0146</td>
+                <td>2370</td>
+                <td>2095</td>
+                <td>0.7</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+        <!-- FORM SECTION -->
+        <section class="form-section" id="contact">
+            <h2>Get in Touch With Us</h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label>
+                        Full Name:
+                        <input type="text" name="fullname" required minlength="10" maxlength="20">
+                    </label>
+
+                    <br><br>
+
+                    <label>
+                        Email:
+                        <input type="email" name="email" required>
+                    </label>
+
+                    <br><br>
+
+                    <label>
+                        City:
+                        <select name="city" required>
+                            <option value="">Select your city</option>
+                            <option>Lagos</option>
+                            <option>Ibadan</option>
+                            <option>Abeokuta</option>
+                            <option>Ilorin</option>
+                            <option>Akure</option>
+                            <option>Benin</option>
+                            <option>Asaba</option>
+                            <option>Warri</option>
+                            <option>Onitsha</option>
+                            <option>Owerri</option>
+                        </select>
+                    </label>
+
+                    <br><br>
+
+                    <label>
+                        Phone Number:
+                        <input type="tel" name="phone" required maxlength="11">
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Message</legend>
+
+                    <label>
+                        Your Message:
+                        <br>
+                        <textarea name="message" maxlength="100" required></textarea>
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Contact Preference</legend>
+
+                    <label>
+                        <input type="radio" name="contact_method" required>
+                        Phone
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contact_method">
+                        Email
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contact_method">
+                        Both
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>How did you hear about us?</legend>
+
+                    <label>
+                        <input type="checkbox">
+                        Friend
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        TS Academy
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Others
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3>About</h3>
+
+        <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Business Relation</a></li>
+        </ul>
+
+        <p>©2025 Company Name. All rights reserved</p>
+
+        <p>
+            <a href="#">Privacy & Policy</a> |
+            <a href="#">Terms & Condition</a>
+        </p>
+    </footer>
+
+    <!-- HTML Milestone Project – Part 1
+
+This project was built using pure HTML only, with no CSS or JavaScript, as required.
+Semantic elements were used throughout the document to ensure clarity, accessibility, and proper structure.
+
+Multimedia content includes an autoplaying embedded video and an image wrapped in a figure with a caption.
+The table was structured with appropriate headings, captions, and scope attributes to improve accessibility.
+
+The contact form includes proper validation, labels, and structural grouping using fieldsets and legends.
+
+All placeholder text was replaced with meaningful content relevant to the project theme. -->
+</body>
+
+</html>
